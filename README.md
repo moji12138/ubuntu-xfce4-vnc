@@ -7,6 +7,8 @@
 - x11vnc
 - xfce4 xfce4-terminal
 - Xvfb
+- vim net-tools wget 等常用工具
+- 中文环境
 
 
 使用`docker build`构建镜像
