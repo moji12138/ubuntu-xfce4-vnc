@@ -20,5 +20,5 @@ docker build --rm -t ubuntu-xfce4-vnc .
 docker run -it -d -p 5901:5901 ubuntu-xfce4-vnc
 ```
 
-使用VNC Viewer连接 默认密码`123456` 分辨率`1366x768`
+使用VNC Viewer连接 默认密码`123456` 分辨率`1280x800`
 
