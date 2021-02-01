@@ -22,3 +22,12 @@ docker run -it -d -p 5901:5901 ubuntu-xfce4-vnc
 
 使用VNC Viewer连接 默认密码`123456` 分辨率`1280x800`
 
+修改分辨率和默认密码
+```
+docker run -it -d -e VNC_RESOLUTION=1280x800 -e VNC_PW=123456 -p 5901:5901 ubuntu-xfce4-vnc
+```
+
+进入容器但不启动vnc和xfce4
+```
+docker run -it -p 5901:5901 ubuntu-xfce4-vnc bash
+```
